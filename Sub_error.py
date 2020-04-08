@@ -23,9 +23,6 @@ def sequence_check():
     if success:
         print("\n All subtitle sequences are continuous and in order..... Sequence check ....COMPLETE.....")
 
-# Below function get the time stamps from the subtitle by checking each line for digits using isnumeric
-# function and printing the next line if digit is found, which is the needed time stamp
-
 def get_time_stamp():
     sequence_check()
     stamps = []
@@ -36,8 +33,6 @@ def get_time_stamp():
             continue
     print("\n", stamps)
 
-# The below block of code reads a subtitle file to a list using splitlines() function 
-# and checks if it is UTF-8 encoded. If not, error message is displayed
 
 sub = input("Enter the subtitle name: ")
 try:
