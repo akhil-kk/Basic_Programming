@@ -10,3 +10,4 @@ try:
     print(line1)
 except UnicodeDecodeError:
     print("The file is not UTF-8 encoded ")
+    ## END
