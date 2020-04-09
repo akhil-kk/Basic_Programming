@@ -1,4 +1,5 @@
-
+## The below function reads the subtitles lines where numbers are present and stores in a list. Then move the odd elements to another list
+#then check if seq1[i] == seq[i] + 1 . if yes, list is continious ie 1,2,3,4,5,6,7.  Then there is no break in sequence
 
 def sequence_check():
     seq = []
@@ -38,6 +39,7 @@ def get_time_stamp():
 
 # The below block of code reads a subtitle file to a list using splitlines() function 
 # and checks if it is UTF-8 encoded. If not, error message is displayed
+## This is where the program begins
 
 sub = input("Enter the subtitle name: ")
 try:
