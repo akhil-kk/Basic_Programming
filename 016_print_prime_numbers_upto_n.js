@@ -1,4 +1,4 @@
-// Write a program that prints all prime numbers up to n.
+// Write a program that prints all prime numbers up to n
 
 const checkPrimeNumber = (number) => {
 	let primeNumber = true;
