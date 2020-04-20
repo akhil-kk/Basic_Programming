@@ -1,4 +1,4 @@
-//Write a program to find the power of aa number
+//Write a program to find the power of a number
 
 const findPower = (base, power) => {
 	let result = Math.pow(base, power);
