@@ -1,4 +1,4 @@
-// binary to octal conversion
+// binary to octal conversion.
 
 const binaryToDecimal = (binaryNumber) => {
   let decimalNumber = parseInt(binaryNumber, 2);
