@@ -71,4 +71,3 @@ console.log(mixLetters("akhil", "kuriakose"));
 splitInHalf("akhil", "kuriakose");
 removeWhiteSpace("akh il", "kuriak ose");
 addAcharacterBetween("akhil", "kuriakose");
-
